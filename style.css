@@ -1,0 +1,186 @@
+html{
+  scroll-behavior: smooth;
+}
+#topheader{
+  background-color: rgba(245,245,245,1);
+  border-bottom: 1px solid ghostwhite;
+  padding: 5px 0 0;
+}
+#topheader h5{
+  font-weight: 300;
+  font-size: 1rem;
+}
+#topheader p{
+  font-weight: 300;
+  font-size: 1rem;
+}
+.nav-item{
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.navbar-light .navbar-toggler{
+  border: none;
+  color: #fff;
+  border: 2px solid #7f7f7f;
+  border-radius: 0;
+  outline: none;
+}
+.banner{
+  position: relative;
+  background: url(/images/solar4.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  padding: 250px 0 200px;
+}
+.banner h2{
+  margin: 0;
+  padding: 0;
+  font-size: 2.8em;
+  font-weight: 1000;
+  color: #61B329;
+  text-transform: uppercase;
+}
+.banner p{
+  margin: 1.4em 0 0;
+  padding: 0;
+  font-size: 1.6em;
+  font-weight: 200;
+  line-height: 1.5em;
+  color: white;
+}
+#secbtn{
+  margin: 1em 0 0;
+  font-size: 1em;
+}
+.products p{
+  font: inherit;
+  font-weight: 400;
+  font-size: 18px;
+}
+.leftside{
+  position: relative;
+  background: url(/images/battery4.jpg);
+  min-height: 60vh;
+  background-size: cover;
+  padding: 250px 0 200px;
+}
+.middle{
+  position: relative;
+  background: url(/images/solar2.jpg);
+  min-height: 60vh;
+  background-size: cover;
+  padding: 250px 0 200px;
+}
+.rightside{
+  position: relative;
+  background: url(/images/solar3.jpg);
+  min-height: 60vh;
+  background-size: cover;
+  padding: 250px 0 200px;
+}
+.benefits-section{
+  padding: 80px 0 0 0;
+  position: relative;
+  min-height: 70vh;
+  background-color: rgba(245,245,245,1);
+}
+.benefits-section p{
+  font: inherit;
+  font-weight: 300;
+}
+.pre-footer{
+  padding: 10px 0 0 0;
+  position: relative;
+  background: url(/images/battery1.jpg);
+  min-height: 40vh;
+  background-size: cover;
+}
+.pre-footer h2{
+  margin: 0;
+  padding: 0;
+  font-size: 2.6em;
+  font-weight: 1000;
+  color: #61B329;
+  text-transform: uppercase;
+}
+.pre-footer p{
+  margin: 1em 0 0;
+  padding: 0;
+  font-size: 1.6em;
+  font-weight: 200;
+  line-height: 1.5em;
+  color: white;
+}
+.gotopbtn{
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  color: #27ae60;
+  bottom: 20px;
+  right: 15px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 30px;
+}
+
+/*---ABOUT PAGE---*/
+
+.breadcrumbs-section{
+  background-color: limegreen;
+}
+.about p{
+  font: inherit;
+  font-weight: 400;
+  font-size: 18px;
+}
+.abtfooter{
+  padding: 60px 0 0 0;
+  position: relative;
+  background: url(/images/bulb3.jpg);
+  min-height: 45vh;
+  background-size: cover;
+}
+.abtfooter h2{
+  margin: 0;
+  padding: 0;
+  font-size: 2.2em;
+  font-weight: 800;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/*--------CONTACT US PAGE------*/
+.address p{
+  font-weight: 600;
+}
+#contact-details p{
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+.contact p{
+  font: inherit;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+/*-----------SERVICES PAGE-------*/
+.services-section p{
+  font: inherit;
+  font-weight: 400;
+  font-size: 18px;
+}
+.servfooter{
+  padding: 40px 0 0 0;
+  position: relative;
+  background: url(/images/battery1.jpg);
+  min-height: 20vh;
+  background-size: cover;
+}
+.servfooter h2{
+  margin: 0;
+  padding: 0;
+  font-size: 2em;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+}
